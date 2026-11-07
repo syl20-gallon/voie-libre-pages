@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voie libre – Confidentialité</title>
+<style>
+:root{--fond:#fff;--texte:#1b2430;--doux:#5b6675;--accent:#14243A}
+@media (prefers-color-scheme:dark){:root{--fond:#0f1722;--texte:#e6ebf2;--doux:#9aa6b5;--accent:#8fb3e0}}
+body{margin:0;background:var(--fond);color:var(--texte);font:16px/1.55 -apple-system,system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:32px 16px 64px}
+h1{color:var(--accent);margin-bottom:4px}h2{margin-top:32px;font-size:1.15em}
+.date{color:var(--doux);margin-top:0}hr{border:0;border-top:1px solid var(--doux);opacity:.3;margin:40px 0}
+a{color:var(--accent)}
+</style>
+</head>
+<body><main>
+<h1>Voie libre</h1>
+<p class="date">Politique de confidentialité — mise à jour le 7 novembre 2026</p>
+
+<p>Voie libre est une application personnelle qui affiche le planning de service d’un conducteur de train.
+Elle n’a <strong>ni compte, ni serveur, ni publicité, ni outil de mesure d’audience</strong>.
+Le développeur ne reçoit aucune donnée.</p>
+
+<h2>Données conservées sur l’appareil</h2>
+<p>Le planning importé (fichier .ics ou CSV, ou lien d’abonnement saisi par l’utilisateur), les réglages et les
+codes SIVE saisis à la main restent sur l’appareil. Ils sont partagés avec les widgets et l’Apple Watch de
+l’utilisateur. Supprimer l’application les efface.</p>
+
+<h2>iCloud</h2>
+<p>Les codes SIVE saisis sont synchronisés entre les appareils de l’utilisateur par le stockage iCloud d’Apple
+(compte iCloud de l’utilisateur). Le développeur n’y a pas accès. Ils sont effacés au bout de 60 jours.</p>
+
+<h2>Position</h2>
+<p>Si l’utilisateur l’autorise, la position sert uniquement à centrer la carte et à afficher la météo locale.
+Elle n’est ni enregistrée ni transmise au développeur.</p>
+
+<h2>Services consultés</h2>
+<p>Pour afficher la météo, la carte et le nom des lieux, l’application interroge directement des services publics :
+Open-Meteo (météo), OpenStreetMap et la Géoplateforme de l’IGN (cartes), api-adresse.data.gouv.fr (adresses).
+Ces requêtes contiennent les coordonnées ou le lieu à afficher, jamais le planning. Le planning n’est téléchargé que
+depuis l’adresse choisie par l’utilisateur.</p>
+
+<h2>Contact</h2>
+<p>Sylvain Gallon — <a href="mailto:sylvain.gallon@icloud.com">sylvain.gallon@icloud.com</a></p>
+
+<hr>
+<h1>Voie libre</h1>
+<p class="date">Privacy policy — updated 7 November 2026</p>
+<p>Voie libre is a personal app that shows a train driver’s duty roster. It has <strong>no account, no server,
+no ads and no analytics</strong>. The developer receives no data.</p>
+<p>The imported roster, settings and manually entered SIVE codes stay on the device (shared with the user’s widgets
+and Apple Watch). SIVE codes are synced between the user’s own devices through Apple iCloud and deleted after 60
+days. Location, if allowed, is only used to centre the map and show local weather and is never sent to the
+developer. Weather, maps and place names come directly from Open-Meteo, OpenStreetMap, IGN Géoplateforme and
+api-adresse.data.gouv.fr.</p>
+<p>Contact: <a href="mailto:sylvain.gallon@icloud.com">sylvain.gallon@icloud.com</a></p>
+
+<hr>
+<p><a href="planning-demo.ics">Planning de démonstration (fictif)</a> — pour essayer l’application sans planning réel.</p>
+</main></body>
+</html>
